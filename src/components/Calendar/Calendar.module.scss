@@ -1,0 +1,39 @@
+.active {
+    background-color: rgba(255, 119, 119, 0.781);
+}
+
+.activeTest {
+    background-color: rgba(208, 208, 208, 0.656);
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .dayWrap {
+        min-width: 170px;
+        min-height: 170px;
+        padding: 10px;
+        border: 1px solid rgba(128, 128, 128, 0.534);
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.infoDate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.markerItem {
+    background-color: rgba(65, 226, 103, 0.576);
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    &:hover {
+        background-color: rgb(65, 226, 103);
+    }
+}

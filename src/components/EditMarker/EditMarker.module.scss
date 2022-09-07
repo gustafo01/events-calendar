@@ -1,0 +1,20 @@
+.btnWrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    button:first-child {
+        margin-right: 20px;
+    }
+}
+
+.timeInfo {
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.formContent > * {
+    margin-bottom: 15px;
+}
+
+.formContent div > * {
+    margin-bottom: 15px;
+}

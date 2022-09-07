@@ -1,0 +1,117 @@
+
+$dark: #303030;
+$mediumDark: #363636;
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+button:active {
+    background-color: transparent !important;
+}
+
+button:visited {
+    background-color: transparent !important;
+}
+
+.wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+.next {
+    background: url(../src/static/img/next.svg) no-repeat center center;
+    height: 24px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.prev {
+    background: url(../src/static/img/prev.svg) no-repeat center center;
+    height: 24px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.closeBtn {
+    background: url(../src/static/img/close.svg) no-repeat center center;
+    height: 24px;
+    width: 24px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.saveBtn {
+    border: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #ff6060;
+    color: white;
+    transition: 0.3s;
+    &:hover {
+        background-color: #ff3a3a;
+    }
+}
+
+.deleteBtn {
+    background: url(../src/static/img/delete.svg) no-repeat center center;
+    height: 24px;
+    width: 24px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.addBtn {
+    background: url(../src/static/img/add_circle.svg) no-repeat center center;
+    height: 36px;
+    width: 36px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.form {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: 5;
+    background-color: white;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    min-width: 350px;
+    & input {
+        margin-bottom: 20px;
+    }
+    .header-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+}

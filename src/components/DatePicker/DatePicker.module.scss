@@ -1,0 +1,30 @@
+.dateNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.wrapSelect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+        width: 120px;
+        text-align: center;
+    }
+    margin-right: 20px;
+}
+
+.calendarBtn {
+    background: url(../../static/img/event_black_24dp.svg) no-repeat center center;
+    height: 24px;
+    width: 24px;
+    border: 0;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        opacity: 0.7;
+    }
+}
